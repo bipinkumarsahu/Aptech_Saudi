@@ -1,0 +1,188 @@
+@import url('common.css');
+
+/*  @font-face {
+    font-family: "Futura LtCn BT";
+    font-style:  normal;
+    font-weight: normal;
+    src: url('FUTURAL0.eot');
+  }*/
+
+@font-face {font-family:FuturaCE Book; font-weight:normal; font-style:normal; src:url(../fonts/FuturaCE-Book.otf);}
+
+
+*, html { margin:0; padding:0;}
+
+body{margin:0; padding:0; font-family:FuturaCE Book; font-style:normal; color:#000}
+
+/* Wrapper starts here */
+
+#mainwrapper {width:940px; margin:0 auto; line-height:normal}
+
+#header {margin:0; padding:10px 0 0 0; width:940px; border-top:10px #f5b400 solid}
+
+#banner {margin:10px 0; padding:0; width:940px; height:186px;}
+
+#container {margin:20px 0 10px; padding:0; width:940px;}
+
+.content-container {
+	border-style: solid;
+	display: inline;
+	margin-left: 4%;
+/*	margin-top: 4px;
+	width: 43%;
+	height: 400px;
+	margin-bottom: 10px;
+	float: left;*/
+}
+
+.clearboth {clear:both}
+
+#footer {margin:15px auto 0; padding:0; width:940px; background:#666; position:absolute; }
+#footer p {margin:0; padding:5px 15px; text-align:center; font-size:12px; font-family:FuturaCE Book; color:#fff }
+#footer p img.quadlogo {margin:0; padding:0 0 0 5px; float:right; border:0}
+
+
+/* Wrapper ends here */
+
+h1 {margin:0; padding:10px; font-size:24px; font-weight:bold; text-transform:capitalize; font-family:FuturaCE Book; font-style:italic; text-align:center}
+h2 {margin:0; padding:0 15px 5px; font-size:20px; font-weight:bold; text-transform:uppercase; font-family:FuturaCE Book; font-style:normal; border-bottom:1px solid #000;}
+h2 span {padding:3px 5px; margin:0 0 0 375px; font-family:FuturaCE Book; font-size:12px; font-weight:bold; text-transform:uppercase; background:#000; color:#F5B400;}
+h2 span a {text-decoration:none; color:#F5B400;}
+h2 span a:hover {text-decoration:none}
+h3 {margin:0; padding:10px 15px 0; font-size:16px; font-weight:bold; text-transform:uppercase; font-family:FuturaCE Book; font-style:normal}
+h4 {margin:0; padding:5px 15px 0; font-size:14px; font-weight:normal; text-transform:capitalize; font-family:FuturaCE Book; font-style:italic}
+h5 {/*margin:0 0 -2px;*/ margin:0; padding:5px 15px 0; font-size:12px; font-weight:bold; text-transform:none; font-family:FuturaCE Book; font-style:normal; text-transform:none}
+h6 {}
+
+sup { font-family:"Times New Roman", Times, serif; font-size:80%; padding:0 0 0 2px}
+
+a {color:#000; text-decoration:none}
+a:hover { text-decoration:underline}
+
+p {margin:0; padding:5px 15px; font-family:FuturaCE Book; font-size:18px; text-align:center}
+p em { font-weight:bold; text-transform:none}
+p img {margin:0; padding:0 0 10px; text-align:center; height:100px;}
+p img.right {margin:0; padding:5px 0 10px 10px; float:right;}
+p img {
+	margin: 0;
+	padding: 0 0 10px;
+	text-align: center;
+	height: 100px;
+}
+
+.home { font-family:FuturaCE Book; font-size:0.7em; text-align:center; letter-spacing:.07em}
+
+.flash_landing {margin:-50px auto 0; padding:0; width:940px; background:none; z-index:-1; position:absolute}
+
+ul {margin:0; padding:5px 0 5px 30px;}
+li {margin:0; padding:2px 15px; list-style-type:none; background:url(../images/bullets02.jpg) no-repeat 0 6px; font-family:FuturaCE Book; font-size:14px; text-align:justify}
+li a {color:#000; text-decoration:none}
+li a:hover {text-decoration:underline}
+
+.readmore {margin:5px 0 10px 15px!important; padding:0!important; background:url(../images/bullets.jpg) no-repeat 60px 4px;}
+.readmore a {margin:0!important; padding:0!important; text-decoration:none; text-transform:uppercase; font-family:FuturaCE Book; font-size:16px; color:#000}
+.readmore a:hover {text-decoration:underline; color:#F5B400}
+
+.top {margin:0; padding:0 15px 5px; text-align:right;}
+.top a {text-decoration:none; text-transform:uppercase; font-family:FuturaCE Book; font-size:16px; color:#000; font-weight:bold;}
+.top a:hover {text-decoration:underline;}
+
+.viewmap {padding:0; margin:10px 10px 0 0; font-family:FuturaCE Book; font-size:13px; font-weight:bold; text-transform:uppercase; display:block; text-align:right}
+.viewmap a {text-decoration:none; background:#000; color:#F5B400; padding:2px 5px;}
+.viewmap a:hover {text-decoration:none}
+
+
+
+/* home container starts here */
+
+#left_sec {margin:0; padding:0; float:left; width:325px; display:block;}
+
+#center_sec {margin:0; padding:0; float:left; width:325px; display:block}
+
+#right_sec {margin:0; padding:0; float:right; width:290px; display:block}
+
+#left_sec h2 {margin:5px 0 0; padding:0; font-family:FuturaCE Book; font-size:20px; font-weight:bold; text-transform:none; border:none; text-align:left}
+#left_sec ul {margin:2px 0 5px; padding:0; width:294px; list-style:none; font-family:FuturaCE Book; font-size:14px; text-align:justify}
+#left_sec li { background:url(../images/bullets.jpg) no-repeat 0 5px; padding:0 0 0 15px }
+
+#center_sec h2 {margin:5px 0; padding:0; font-family:FuturaCE Book; font-size:19px; font-weight:normal; text-transform:none; border:none}
+#center_sec .highlight { background:#F5B400; display:block; text-align:center; margin:5px 0; padding:3px; text-transform:uppercase; font-family:FuturaCE Book; font-size:12px; border:0}
+#center_sec .highlight a { text-decoration:none; color:#000}
+#center_sec .highlight a:hover { text-decoration:underline}
+#center_sec p.small {margin:0; padding:0; font-family:FuturaCE Book; font-size:13px; font-style:normal}
+
+#right_sec img{float:right; clear:both; margin:0 0 5px; padding:0}
+#right_sec #testimonial {margin:10px 0 0; padding:0; width:264px; height:164px; float:right; background:url(../images/testimonial_brd.jpg) 0 0 no-repeat }
+#right_sec #testimonial div.up {margin:0; padding:0;}
+#right_sec #testimonial div.up h2 {/*background:url(../images/testimonial_brd_01.jpg) 0 0 no-repeat; */margin:0 10px; padding:5px 0 0; text-transform:uppercase; color:#666; font-family:FuturaCE Book; font-size:15px; font-weight:normal; border-bottom:1px solid #F5B400 }
+#right_sec #testimonial div.middle {/*background:url(../images/testimonial_brd_02.jpg) 0 0 repeat-y; min-height:100px;*/ margin:0; padding:0;}
+#right_sec #testimonial div.middle p {margin:0; padding:10px; font-family:FuturaCE Book; font-size:14px; text-align:left}
+#right_sec #testimonial div.middle p img {margin:0; padding:0 5px 0 0; float:left}
+#right_sec #testimonial div.middle p.readmore {margin:0!important; padding:0!important; background:url(../images/bullets.jpg) no-repeat 155px 4px;}
+#right_sec #testimonial div.middle p.readmore a {margin:0!important; padding:0!important; text-decoration:none; text-transform:uppercase; font-family:FuturaCE Book; font-size:16px; color:#000}
+#right_sec #testimonial div.middle p.readmore a:hover {text-decoration:underline; color:#F5B400}
+#right_sec #testimonial div.bottom {/*background:url(../images/testimonial_brd_01.jpg) 0 -63px no-repeat; min-height:20px;*/ margin:0; padding:0;}
+
+/* home container ends here */
+
+
+
+/* inside container starts here */
+
+#left_side {margin:0; padding:0; float:left; width:205px; display:block;}
+
+#left_side_float {margin:0; padding:0; float:right; /*width:150px; height:22px; background:url(../images/btn_std-enquiry.jpg) no-repeat 0 0;*/ top:60%; width:970px; text-align:right; position:fixed}
+
+#right_side {margin:0; padding:0; float:right; width:735px; display:block;}
+#right_side #top {margin:0; padding:0; background:url(../images/rt-side_bg.jpg) no-repeat 0 0; height:25px}
+#right_side #middle {margin:0; padding:0; background:#ffce48; min-height:350px}
+#right_side #bottom {margin:0; padding:0; background:url(../images/rt-side_bg.jpg) no-repeat 0 -25px; height:25px}
+.java { background:url(../images/icons-java.jpg) #ffce48 no-repeat 50% 50% !important;}
+.net { background:url(../images/icons-net.jpg) #ffce48 no-repeat 50% 50% !important;}
+.opensource { background:url(../images/icons-opensource.jpg) #ffce48 no-repeat 50% 50% !important;}
+.cloud { background:url(../images/icons-cloud.jpg) #ffce48 no-repeat 50% 50% !important;}
+
+
+#both_side {margin:0; padding:0; width:940px; display:block;}
+#both_side #top {margin:0; padding:0; background:url(../images/bt-side_bg.jpg) no-repeat 0 0; height:25px}
+#both_side #middle {margin:0; padding:0; background:url(../images/bg_paw.gif) no-repeat 0 bottom #ffce48; min-height:450px}
+#both_side #middle-an {margin:0; padding:0; background:url(../images/about_aptech_nigeria.jpg) no-repeat 0 bottom #ffce48; min-height:450px}
+#both_side #middle-aa {margin:0; padding:0; background:url(../images/about_aptech.jpg) no-repeat 0 bottom #ffce48; min-height:450px}
+#both_side #bottom {margin:0; padding:0; background:url(../images/bt-side_bg.jpg) no-repeat 0 -25px; height:25px}
+
+/* inside container ends here */
+
+
+div p.sitemap {float:right; margin:5px 15px 10px 0; padding:0; clear:both; display:none; width:60px}
+p.sitemap {font-family:FuturaCE Book; font-size:16px; margin:0; padding:0; background:url(../images/site-map.jpg) 0 4px no-repeat; text-align:right; text-transform:capitalize }
+p.sitemap a{text-decoration:none; color:#000}
+p.sitemap a:hover{text-decoration:underline}
+
+
+/* Forms starts here */
+form {font-family:FuturaCE Book; font-size:14px; }
+form p {margin:0; padding:10px 0 0}
+form input {width:140px; border:1px solid #666; margin:3px 0; padding:2px;}
+form input.full {width:294px}
+form input.extrafull {width:350px}
+form select {width:299px; border:1px solid #666; margin:3px 0; padding:2px}
+form select.extrafull {width:355px}
+form textarea {width:294px; border:1px solid #666; margin:3px 0; padding:2px; height:60px}
+form textarea.extrafull {width:350px}
+/* Forms ends here */
+
+
+/* Table starts here */
+
+table {margin:10px 0 10px 10px; padding:0; border:1px solid #FED983; width:90%; font-family:FuturaCE Book; font-size:14px; }
+table th {background:#fccc5a; padding:7px; text-transform:uppercase; border:1px solid #fff;}
+table td {padding:7px; border:1px solid #fff;}
+table td.odd { background:#FED983; font-weight:bold;}
+table td.even {}
+table td ul {margin:0; padding:5px 0;}
+table td li {margin:0; padding:2px 15px; list-style-type:none; background:url(../images/bullets02.jpg) no-repeat 0 6px; font-family:FuturaCE Book; font-size:14px; text-align:left}
+
+/* Table ends here */
+
+
+

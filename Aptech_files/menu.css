@@ -1,0 +1,68 @@
+
+/* ========= NAVIGATION starts here ============== */
+#nav { z-index:1000; /*float:left; */width:940px;}
+
+#nav ul { margin:10px 0; padding: 0; list-style-type: none; list-style-image: none; width:100%; float:left; z-index:1000; }
+
+#nav ul li {float: left;list-style-image: none;list-style-type: none; font-family:Futura BdCn BT; font-weight:normal; background:url('../images/navigation.jpg') no-repeat; padding:0; margin:0;}
+#nav ul li img {padding:0; margin:0;}
+#nav ul li ul { width:200px;}
+
+/* active */
+#nav ul li.a_home {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat 0px 1px; }
+#nav ul li.a_aboutaptech {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat  -173px 1px; }
+#nav ul li.a_nigeria {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat  -419px 1px; }
+#nav ul li.a_centerlocator {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat  -678px 1px; }
+
+/* Normal */
+#nav ul li.home {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat 0px -51px; }
+#nav ul li.aboutaptech {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat  -173px -51px; }
+#nav ul li.nigeria {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat  -419px -51px; }
+#nav ul li.centerlocator {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat  -678px -51px; }
+
+
+/* hover */
+#nav ul li:hover.home {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat 0px 1px; }
+#nav ul li:hover.aboutaptech {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat  -173px 1px; }
+#nav ul li:hover.nigeria {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat  -419px 1px; }
+#nav ul li:hover.centerlocator {float: left;list-style-image: none;list-style-type: none; background:url('../images/navigation.jpg') no-repeat  -678px 1px; }
+
+
+#nav ul li#last { background: transparent;}
+
+#nav ul li a { display: block; color: #c6c6c6; text-align: center; text-decoration: none; margin: 0; padding: 0; z-index:1000}
+
+#nav ul li a.over {color: #fff; background: transparent}
+
+#nav ul li a:hover { color: #fff;  background: transparent}
+
+#nav ul ul { position: absolute; left: -9999em; margin: 0;}
+
+#nav li li { width: 100%; float: none; position: relative; margin:0; padding:0; border-left: 1px solid #e7b644; border-right: 1px solid #e7b644; border-bottom: 1px solid #e7b644; font-family:Futura BdCn BT; font-size:16px; text-transform:capitalize}
+
+#nav li li a { display: block; color: #555; background: #f1d273; margin:0; padding: 3px 5px 3px 10px; text-decoration: none; text-align: left; /* line-height: 25px;*/}
+
+#nav li li a:hover {  color: #fff; background: #f5b234; text-decoration: none; text-align: left;}
+
+#nav li li li a { color: #555; background: #f1d273;}
+
+#nav li li li a:hover {color: #fff;background: #f5b234;}
+
+#nav li:hover ul ul, #nav li.sfhover ul ul, #nav li li:hover ul ul, #nav li li.sfhover ul ul {left: -9999em;}
+
+#nav li:hover ul, #nav li.sfhover ul, #nav li li:hover ul, #nav li li.sfhover ul {left: auto;}
+
+/* ========= NAVIGATION ends here ============== */
+
+
+/* ========= SUB NAVIGATION starts here ============== */
+
+#subnav ul {margin:0; padding:0; width:205px;}
+#subnav li {margin:0; padding:0 0 20px; width:205px; display:block; list-style-type:none; font-family:Futura BdCn BT; font-weight:normal; font-size:20px; text-transform:uppercase; background:none; text-align:left}
+#subnav li a {color:#000; text-decoration:none; border-bottom:1px solid #fff; width:205px; display:block}
+#subnav li a:hover {color:#F5B400; text-decoration:none; border-bottom:1px solid #F5B400; /*background:url(../images/border01.jpg) repeat-x 0 23px;*/}
+
+#subnav li a.active {color:#F5B400; text-decoration:none; border-bottom:1px solid #F5B400; /*background:url(../images/border01.jpg) repeat-x 0 23px;*/}
+
+
+/* ========= SUB NAVIGATION ends here ============== */
