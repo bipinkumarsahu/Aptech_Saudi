@@ -1,5 +1,7 @@
 /* [Master Stylesheet v1.0] */
 /* :: :: 1.0 Import Fonts */
+/* @font-face {font-family:FuturaCE Book; font-weight:normal; font-style:normal; src:url(../fonts/FuturaCE-Book.otf);} */
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900");
 /* :: 2.0 Import All CSS */
 @import url(css/bootstrap.min.css);
@@ -49,7 +51,7 @@ ol {
 
 img {
 	height: auto;
-	width: 14%;
+	width: 15%;
 }
 
 /* Spacing */
@@ -280,6 +282,8 @@ img {
       bottom: 30px;
       right: 30px; } }
 
+  
+
 /* Essence Button */
 .academy-btn {
   display: inline-block;
@@ -356,6 +360,7 @@ img {
 	padding: 0;
 }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
+        
         .header-area .academy-main-menu .classy-navbar {
           padding: 0;
           padding-left: 2em; } }
@@ -524,6 +529,12 @@ img {
           height: 40px;
           line-height: 40px;
           margin-top: -20px; } }
+
+          @media (max-width: 812px){
+            .hero-area{
+              display: none;
+            }
+          }
 
           /* .carousel-container{
             background-size: cover;
@@ -842,8 +853,8 @@ img {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 54%;
     flex: 0 0 54%;
-    max-width: 54%;
-    width: 54%;
+    /* max-width: 54%;
+    width: 54%; */
     padding: 30px; }
     @media only screen and (max-width: 767px) {
       .single-top-popular-course .popular-course-content {
@@ -1010,7 +1021,7 @@ img {
     display: inline;
     float: left;
     color: #606060;
-    width: 20%;
+    width: 10%;
      }
     .main-footer-area .footer-widget .footer-social-info a:hover, .main-footer-area .footer-widget .footer-social-info a:focus {
       color: #ffffff; }
@@ -1054,7 +1065,7 @@ img {
 
 .bottom-footer-area {
   background-color: #141414;
-  padding: 30px 0;
+  padding: 10px 0;
   text-align: center; }
   .bottom-footer-area p {
     font-size: 12px;
@@ -1542,25 +1553,19 @@ img.logo_in_style {
 	margin-top: 28px;
 	width: 35%;
 }
-.formcontainer {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  width: 40%;
-  border: black;
+.form-container {
+  padding: 15px 15px;
+  margin: 20px 0px;
+  border: 2px black;
   border-style: solid;
-  margin-top: 10px;
-  margin-bottom: 10px;
   display: inline-block;
 }
-.contentcontainer {
+.content-container {
 	display:inline-block;
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 40%;
 	border-style: solid;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -1688,7 +1693,7 @@ button, input, optgroup, select, textarea {
 .tabs {
   display: inline-flex;
   flex-wrap: wrap;
-  margin-top: 120px;
+  
 }
  
 
@@ -1850,4 +1855,55 @@ button, input, optgroup, select, textarea {
   margin: 20px;
   display: inline-block;
   font-weight: bold;
+}
+
+.header-h{
+  text-align: center;
+  font-family: FuturaCE Book;
+  font-style: italic;
+  font-size: 24px;
+  color: black;
+}
+
+.pages-link{
+  padding: 20px 20px;
+}
+.content-con{
+  padding: 20px 20px;
+  margin: 5px 5px;
+}
+.about-awards{
+  padding: 10px 20px;
+  border: 2px solid black;
+  height: 480px;
+}
+.table-heading{
+  font-weight: bold;
+}
+.content-heading{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center  ;
+}
+.about{
+  overflow: auto;
+}
+
+.index-link{
+  width: 45%;
+}
+
+.course-det{
+  margin-top: 80px !important;
+}
+
+.tab-courses{
+  overflow-x: scroll;
+}
+
+.aela-course{
+  margin: 0px auto;
+}
+.single-top-popular-aela-course{
+  margin: 0px auto;
 }
