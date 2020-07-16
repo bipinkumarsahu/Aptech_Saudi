@@ -752,7 +752,7 @@ img {
     right: 0;
     top: 0;
     transform-origin: center;
-    trsnsform: scale(1) translateZ(0);
+    transform: scale(1) translateZ(0);
     transition: 
       filter 200ms linear,
       transform 200ms linear;
@@ -1906,4 +1906,66 @@ button, input, optgroup, select, textarea {
 }
 .single-top-popular-aela-course{
   margin: 0px auto;
+}
+.dropbtn {
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color:  #eccd4b;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 0px 0px;
+}
+
+/* Links inside the dropdown */
+.home-drop .dropdown-content li {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {  
+  cursor: pointer;
+  background-color: #eccd4b;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown .dropdown-content {
+  display: block;
+  background-color: #2a2929;
+  color: white;
+}
+@media(min-width:800px){
+  .classynav>ul>li.cn-dropdown-item.has-down>.dd-arrow, .classynav>ul>li.megamenu-item>.dd-arrow{
+    display: none;
+  }
+}
+
+.breakpoint-off .classynav ul li .dropdown{
+  padding: 0px;
+}
+.classynav ul li .dropdown li a{
+  color: white;
+}
+.classynav ul li .dropdown li a{
+  color: white;
+}
+.classynav ul li .dropdown li a:hover{
+  background-color: #eccd4b;
+}
+.ace-index {
+  height: 99.91px;
 }
